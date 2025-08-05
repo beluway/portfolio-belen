@@ -1,0 +1,298 @@
+body{
+    background-image:url(/imagenes/58091.jpg);
+    background-size:cover;  
+     background-position: center;                    
+    height: 100%;  
+}
+
+#mensaje-bienvenida {
+  font-family: "Borel", cursive;
+  font-weight: 700;
+  font-style:normal;
+  text-align: center;
+  color: rgb(221, 113, 167);
+  font-size:50px;
+  padding-top: 5%;
+}
+/*--------------NAV DEL MENU DE INICIO-------------------*/
+.menu{
+    display: flex; 
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    
+}
+.menu li a{
+    display: block;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #f128a4;
+    background-color: rgba(38, 209, 221, 0.473);
+     text-decoration: none;
+     transition: all 0.3s ease;
+
+}
+.menu li a:hover{
+    color: #f5f4f3;
+    background-color: rgba(245, 110, 189, 0.39);
+}
+/*--------------SECTION ACERCA DE-------------------*/
+#descripcion p{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #d633846e;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: cursive;
+  font-style: italic;
+  font-size: 17px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-size: xx-large;
+  font-style: normal;
+  color: rgb(245, 110, 188);
+}
+
+#banner-inicio{
+    display: block;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    margin: auto;
+}
+
+.proyectos {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(38, 209, 221, 0.288);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  color: #444;
+}
+
+/*--------------SECTION HABILIDADES-------------------*/
+.habilidades {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(245, 110, 189, 0.452);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.habilidades h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color:rgb(245, 110, 188);
+}
+
+.categoria {
+  margin-bottom: 30px;
+}
+
+.categoria h3 {
+  font-size: 20px;
+  color: #1e4250;
+  margin-bottom: 15px;
+}
+
+.habilidades {
+  margin-bottom: 15px;
+}
+
+.habilidades span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+.habilidades-barra {
+  background-color: #f3e1ea;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 25px;
+}
+
+.habilidades-nivel {
+  background: linear-gradient(90deg, #ff85c1, #e64980);
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 25px;
+  height: 100%;
+  font-size: 14px;
+  border-radius: 20px 0 0 20px;
+  transition: width 0.5s ease;
+}
+
+
+/*--------------TABLE EDUCACION-------------------*/
+.educacion {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:rgba(38, 209, 221, 0.288);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.educacion h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #b84780;
+}
+
+.educacion table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.educacion th,
+.educacion td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.educacion thead {
+  background-color: #f776b6;
+}
+
+.educacion thead th {
+  color: #a61e4d;
+  font-weight: 600;
+}
+.educacion tbody td {
+  color: #555;
+}
+
+/*--------------FORMULARIO DE CONTACTO-------------------*/
+#contacto{
+
+  max-width: 500px;
+  margin: 40px auto;
+  background-image: url(/imagenes/58091.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgb(87, 85, 83);
+   margin-bottom: 15px;
+}
+#contacto p{
+  text-align: center;
+  font-size: 16px;
+  color: #111111;
+  margin-bottom: 20px;
+font-weight: 700;}
+
+#contacto h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f128a4;
+}
+#contacto label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #f128a4;
+}
+
+#contacto input,
+#contacto textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#contacto input:focus,
+#contacto textarea:focus {
+  border-color: #e63cd8;
+  outline: none;
+  box-shadow: 0 0 5px #f128a4;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(243, 104, 185);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(253, 0, 211, 0.274);
+}
+
+/*--------------FOOTER REDES SOCIALES-------------------*/
+.redes-sociales li{
+    display: inline-block;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding: 12px;
+    text-align: center;  
+}
+.redes-sociales a{
+    font-family: "Borel", cursive;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    text-decoration: none;
+    color: #f128a4;
+    
+}
+.redes-sociales img{
+display: inline-block; 
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+.redes-sociales a:hover{
+transform: scale(1.5);
+}
+#volver{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #f7f4f6;
+    padding: 10px 20px;
+    font-weight: bolder;
+   font-size: medium;
+}
+#volver:hover{ 
+transform: scale(1.5);
+}
+
+footer {
+    background-color: rgba(245, 110, 188, 0.39);
+    padding: 20px;
+    text-align: center;
+    color: #f128a4;
+    font-size: 14px;
+    box-shadow: #444 0px 0px 10px;
+    margin-top: 50px;
+}
