@@ -17,19 +17,27 @@ body{
 /*--------------NAV DEL MENU DE INICIO-------------------*/
 .menu{
     display: flex; 
-    gap: 20px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
     list-style: none;
     justify-content: center;
+    background-color: #db68a1;
     
+}
+#contenedor-menu{
+  margin-top: 70px; /* mismo alto que la barra */
+      padding: 20px;
+      background-color: #b84780;
 }
 .menu li a{
     display: block;
-    border-radius: 8px;
+    border-radius: 18px;
     padding: 10px 20px;
-    color: #f128a4;
-    background-color: rgba(38, 209, 221, 0.473);
-     text-decoration: none;
-     transition: all 0.3s ease;
+    color: #f7f4f6;
+    text-decoration:none;
+    transition: all 0.3s ease;
 
 }
 .menu li a:hover{
@@ -296,3 +304,67 @@ footer {
     box-shadow: #444 0px 0px 10px;
     margin-top: 50px;
 }
+
+
+
+/* Tablets (pantallas desde 768px) */
+@media (min-width: 768px) {
+  /* Menú de navegación en fila */
+  .menu {
+    gap: 40px;
+    font-size: 18px;
+  }
+
+  /* Banner más grande */
+  #banner-inicio {
+    width: 80%;
+  }
+
+  /* Habilidades en 2 columnas */
+  .habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  /* Educación: tabla con letra más grande */
+  .educacion table {
+    font-size: 16px;
+  }
+}
+
+/* === 💻 Escritorio (pantallas desde 1024px) === */
+@media (min-width: 1024px) {
+  #mensaje-bienvenida {
+    font-size: 64px;
+    padding-top: 80px;
+  }
+
+  /* Banner ocupa menos para no estirarse demasiado */
+  #banner-inicio {
+    width: 60%;
+  }
+
+  /* Habilidades en 3 columnas */
+  .habilidades {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Contacto centrado con menos ancho */
+  #contacto {
+    max-width: 600px;
+  }
+}
+
+/* === 🖥️ Escritorio grande (pantallas desde 1440px) === */
+@media (min-width: 1440px) {
+  body {
+    font-size: 18px;
+  }
+  #banner-inicio {
+    width: 50%;
+  }
+}
+
+
+
